@@ -9,7 +9,7 @@ pipeline {
 		stage('Get Public'){
 			steps {
 				sh """
-					curl http://ipinfo.io/ip > my-public-ip.txt'
+					curl http://ipinfo.io/ip >> my-public-ip.txt'
 				"""
 			}
 		}
