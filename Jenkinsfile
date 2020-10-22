@@ -1,4 +1,4 @@
 node {
 	echo "Hello World"
-	sh 'curl ifconfig.me' 
+	sh 'curl http://ipinfo.io/ip' 
 }
