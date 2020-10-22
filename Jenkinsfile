@@ -17,7 +17,7 @@ pipeline {
 	
 	post {
 		always {
-			archiveArtifacts: 'my-public-ip.txt', followSymlinks: false
+			archiveArtifacts artifacts: 'my-public-ip.txt', followSymlinks: false
 		}
 	}
 }
